@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+
+
+ <div class="banner"></div>
+
+    <div class="menu">
+        <a href="./login.html">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+    </div>
+
+    <div class="product-container">
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/446/222-222/110000480404273.jpg" alt="Ürün 1">
+            <div class="product-name">Ürün 1</div>
+        </div>
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/345/222-222/110000352622851.jpg" alt="Ürün 2">
+            <div class="product-name">Ürün 2</div>
+        </div>
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/442/222-222/110000475798462.jpg" alt="Ürün 3">
+            <div class="product-name">Ürün 3</div>
+        </div>
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/55/222-222/11231880085554.jpg" alt="Ürün 4">
+            <div class="product-name">Ürün 4</div>
+        </div>
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/166/222-222/110000128845736.jpg" alt="Ürün 5">
+            <div class="product-name">Ürün 5</div>
+        </div>
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/378/222-222/110000396660879.jpg" alt="Ürün 6">
+            <div class="product-name">Ürün 6</div>
+        </div>
+    </div>
+
+    <div class="video-container">
+
+<video autoplay id="myVideo">
+     <source src="static/videos/video.mp4" type="video/mp4">
+</video>
+    </div>
+
+<script>
+        document.getElementById('video-container').addEventListener('click', function () {
+            const video = document.getElementById('myVideo');
+            video.play();
+        });
+
+
+    </script>
+
+</body>
+</html>
+

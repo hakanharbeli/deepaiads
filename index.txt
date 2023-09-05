@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="banner"></div>
+
+    <div class="menu">
+        <a href="/login">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+    </div>
+
+    <div class="product-container">
+        <div class="product-box">
+            <img src="https://productimages.hepsiburada.net/s/446/222-222/110000480404273.jpg" alt="Ürün 1">
+            <div class="product-name">Ürün 1</div>
+        </div>
+        <!-- Diğer ürün kutuları buraya eklenebilir -->
+    </div>
+
+    <div class="video-container">
+        <video autoplay id="myVideo">
+            <source src="static/videos/video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script>
+        document.getElementById('video-container').addEventListener('click', function () {
+            const video = document.getElementById('myVideo');
+            video.play();
+        });
+    </script>
+</body>
+</html>
