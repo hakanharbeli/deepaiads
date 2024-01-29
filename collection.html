@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+
+
+ <div class="banner"></div>
+
+    <div class="menu">
+        <a href="./login.html">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+    </div>
+
+    <div class="overdue-debts-container">
+    <h2 class="heading">Gecikmiş Borçlar</h2>
+    <table class="debt-table">
+      <thead>
+        <tr>
+          <th>Borç Türü</th>
+          <th>Tutar</th>
+          <th>Vade Tarihi</th>
+          <th>Gecikme Süresi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kredi Kartı Borcu</td>
+          <td>1.500 TL</td>
+          <td>15.04.2024</td>
+          <td>10 gün</td>
+        </tr>
+        <tr>
+          <td>Kişisel Kredi Borcu</td>
+          <td>5.000 TL</td>
+          <td>20.05.2024</td>
+          <td>5 gün</td>
+        </tr>
+        <tr>
+          <td>Konut Kredisi Borcu</td>
+          <td>2.000 TL</td>
+          <td>01.06.2024</td>
+          <td>2 gün</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+    <div class="video-container">
+
+<video autoplay id="myVideo">
+     <source src="static/videos/teoman.mp4" type="video/mp4">
+</video>
+    </div>
+
+<script>
+        document.getElementById('video-container').addEventListener('click', function () {
+            const video = document.getElementById('myVideo');
+            video.play();
+        });
+
+
+    </script>
+
+</body>
+</html>
+
